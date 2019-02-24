@@ -161,15 +161,22 @@
         indexPath.item < self.items.count &&
         !self.loadingImageTasks[@(indexPath.item)] )
     {
+        CGFloat sw = [UIScreen mainScreen].bounds.size.width;
         cell.textLabel.text = nil;
         cell.subtextLabel.text = nil;
         cell.imageView.image = nil;
 
         LGInlineResponse200Items *item = self.items[indexPath.item];
+        
         cell.textLabel.text = item.title;
+        cell.textLabel.font = [cell.textLabel.font fontWithSize: (12.0f * sw/320.0f)];
+        
+        
+        
         cell.subtextLabel.text = nil;
         if (item.isArticle.longValue == 0 && item.advertisingSubject != nil) {
             cell.subtextLabel.text = [@"PR: " stringByAppendingString: item.advertisingSubject];
+            cell.subtextLabel.font = [cell.subtextLabel.font fontWithSize: (11.0f * sw/320.0f)];
         }
         
         // image.
