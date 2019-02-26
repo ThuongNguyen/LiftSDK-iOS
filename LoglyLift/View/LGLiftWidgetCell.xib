@@ -24,13 +24,13 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJn-4c-xXk">
-                        <rect key="frame" x="103" y="49" width="181" height="51"/>
+                        <rect key="frame" x="103" y="59" width="181" height="41"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFx-3D-RU9">
-                        <rect key="frame" x="103" y="0.0" width="181" height="84"/>
+                        <rect key="frame" x="103" y="0.0" width="181" height="74"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
@@ -38,11 +38,11 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="GFx-3D-RU9" secondAttribute="bottom" constant="21" id="8Xg-k6-4bX"/>
+                <constraint firstAttribute="bottom" secondItem="GFx-3D-RU9" secondAttribute="bottom" constant="31" id="8Xg-k6-4bX"/>
                 <constraint firstItem="9R1-Fa-258" firstAttribute="top" secondItem="hck-G7-RaB" secondAttribute="top" constant="6" id="EO7-yC-kiO"/>
                 <constraint firstItem="GFx-3D-RU9" firstAttribute="trailing" secondItem="UJn-4c-xXk" secondAttribute="trailing" id="FuV-Y7-ZHz"/>
                 <constraint firstAttribute="bottom" secondItem="UJn-4c-xXk" secondAttribute="bottom" constant="5" id="KmH-Df-7mZ"/>
-                <constraint firstItem="UJn-4c-xXk" firstAttribute="top" secondItem="hck-G7-RaB" secondAttribute="top" constant="49" id="PB4-NJ-hdz"/>
+                <constraint firstItem="UJn-4c-xXk" firstAttribute="top" secondItem="hck-G7-RaB" secondAttribute="top" constant="59" id="PB4-NJ-hdz"/>
                 <constraint firstItem="9R1-Fa-258" firstAttribute="leading" secondItem="hck-G7-RaB" secondAttribute="leadingMargin" id="RpG-1k-9Xq"/>
                 <constraint firstItem="GFx-3D-RU9" firstAttribute="leading" secondItem="9R1-Fa-258" secondAttribute="trailing" constant="7" id="n4c-c7-Ixd"/>
                 <constraint firstItem="GFx-3D-RU9" firstAttribute="top" secondItem="hck-G7-RaB" secondAttribute="topMargin" id="oWb-xY-DrA"/>
