@@ -12,7 +12,7 @@
 
 
 #define kLiftItemCellWidth 300
-#define kLiftItemCellHeight 72
+#define kLiftItemCellHeight 92
 #define kCellMargin 2
 
 
@@ -169,14 +169,14 @@
         LGInlineResponse200Items *item = self.items[indexPath.item];
         
         cell.textLabel.text = item.title;
-        cell.textLabel.font = [cell.textLabel.font fontWithSize: (12.0f * sw/320.0f)];
+        cell.textLabel.font = [cell.textLabel.font fontWithSize: (14.0f * sw/320.0f)];
         
         
         
         cell.subtextLabel.text = nil;
         if (item.isArticle.longValue == 0 && item.advertisingSubject != nil) {
             cell.subtextLabel.text = [@"PR: " stringByAppendingString: item.advertisingSubject];
-            cell.subtextLabel.font = [cell.subtextLabel.font fontWithSize: (11.0f * sw/320.0f)];
+            cell.subtextLabel.font = [cell.subtextLabel.font fontWithSize: (13.0f * sw/320.0f)];
         }
         
         // image.
