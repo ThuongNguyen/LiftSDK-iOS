@@ -12,7 +12,7 @@
 
 
 #define kLiftItemCellWidth 300
-#define kLiftItemCellHeight 92
+#define kLiftItemCellHeight 102
 #define kCellMargin 2
 
 
