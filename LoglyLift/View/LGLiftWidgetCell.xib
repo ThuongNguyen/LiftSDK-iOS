@@ -17,20 +17,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="300" height="105"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9R1-Fa-258">
-                        <rect key="frame" x="16" y="6" width="90" height="93"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9R1-Fa-258">
+                        <rect key="frame" x="16" y="6" width="93" height="93"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="90" id="qZ9-gj-AVQ"/>
+                            <constraint firstAttribute="width" secondItem="9R1-Fa-258" secondAttribute="height" multiplier="1:1" id="S5g-pE-Dg7"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJn-4c-xXk">
-                        <rect key="frame" x="113" y="59" width="171" height="41"/>
+                        <rect key="frame" x="116" y="59" width="168" height="41"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFx-3D-RU9">
-                        <rect key="frame" x="113" y="0.0" width="171" height="74"/>
+                        <rect key="frame" x="116" y="0.0" width="168" height="74"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
