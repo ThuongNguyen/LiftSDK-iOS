@@ -168,7 +168,8 @@
 
         LGInlineResponse200Items *item = self.items[indexPath.item];
         
-        cell.textLabel.text = item.title;
+        NSString *correctString = [NSString stringWithCString:[item.title cStringUsingEncoding:NSISOLatin1StringEncoding] encoding:NSUTF8StringEncoding];
+		cell.textLabel.text = correctString;
         cell.textLabel.font = [cell.textLabel.font fontWithSize: (13.0f * sw/320.0f)];
         
         
